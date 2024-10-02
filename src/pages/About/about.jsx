@@ -115,7 +115,7 @@ const About = () => {
         {/* <Slider /> */}
 
         <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] font-[questrial] text-center mt-[5rem]">
-          Pillars at Leifii
+          Pillars at Leifii Media
           <div
             style={{
               width: "280px",
