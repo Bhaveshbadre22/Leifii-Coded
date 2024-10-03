@@ -40,8 +40,7 @@ export default Cube;
 function MyCube({ progress }) {
   const mesh = useRef(null);
 
-  const texture_1 = useLoader(TextureLoader, "/assets/side 1.png");
-  const texture_2 = useLoader(TextureLoader, "/assets/side 2.png");
+  const texture_1 = useLoader(TextureLoader, "/assets/logol.jpg");
   const texture_3 = useLoader(TextureLoader, "/assets/side 3.png");
   const texture_4 = useLoader(TextureLoader, "/assets/side 4.png");
   const texture_5 = useLoader(TextureLoader, "/assets/side 5.png");
