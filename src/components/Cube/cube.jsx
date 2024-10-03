@@ -45,7 +45,7 @@ export default Cube;
 function MyCube({ rotationX, rotationY }) {
   const mesh = useRef(null);
 
-  const texture_1 = useLoader(TextureLoader, "/assets/Side 1.png");
+  const texture_1 = useLoader(TextureLoader, "/assets/logol.jpg");
   const texture_2 = useLoader(TextureLoader, "/assets/Side 2.png");
   const texture_3 = useLoader(TextureLoader, "/assets/Side 3.png");
   const texture_4 = useLoader(TextureLoader, "/assets/Side 4.png");

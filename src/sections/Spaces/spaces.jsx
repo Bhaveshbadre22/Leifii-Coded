@@ -40,11 +40,11 @@ const Spaces = () => {
                   style={{
                     "--_index": 1,
                     "--_image-url":
-                      "url('https://images.unsplash.com/photo-1706485220806-2d0d9ce98555?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                      "url('https://ibb.co/w40zWyY')",
                   }}
                 >
                   <a
-                    href="https://unsplash.com/de/fotos/ein-hohes-gebaude-mit-einer-uhr-an-der-seite-cI09n4yMIYc"
+                    href="https://ibb.co/w40zWyY"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -56,7 +56,7 @@ const Spaces = () => {
                   style={{
                     "--_index": 2,
                     "--_image-url":
-                      "url('https://images.unsplash.com/photo-1706146280538-620fa8cda080?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                      "url('https://drive.google.com/file/d/1Z6eAHTRBEPDxZgAT3myMN80Hnb_r-8HR/view?usp=drive_link')",
                   }}
                 >
                   <a

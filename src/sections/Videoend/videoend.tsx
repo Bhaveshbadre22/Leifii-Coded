@@ -20,7 +20,7 @@ const Videoend = () => {
             ? "h-[450px] overflow-hidden"
             : "h-[650px] sm:h-[500px] md:h-[650px]"
         } w-[100%] md:w-[95%] object-cover border rounded-3xl`}
-        src="/symbol.mp4"
+        src="/final video.mp4"
         playsInline
         autoPlay
         loop
