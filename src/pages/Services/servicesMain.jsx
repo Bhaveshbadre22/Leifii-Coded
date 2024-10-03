@@ -94,7 +94,7 @@ const ServicesMain = () => {
                       K+
                     </span>
                     <div className="text-[16px] sm:text-[18px] md:text-[20px]">
-                      Content Created
+                      Marketing Brands
                     </div>
                   </div>
                   <div className="w-[50%] md:w-[25%] p-5 sm:p-8 md:p-10 mt-8 sm:mt-12 md:mt-16">
