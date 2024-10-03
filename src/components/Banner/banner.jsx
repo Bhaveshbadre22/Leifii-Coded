@@ -55,7 +55,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/photography">
               <img
-                src="img/pod01.png"
+                src="img/Photography.png"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -68,7 +68,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/branding">
               <img
-                src="img/pod02.png"
+                src="img/Branding.png"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -81,7 +81,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/marketing">
               <img
-                src="img/pod03.png"
+                src="img/Marketing.png"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -94,7 +94,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/web">
               <img
-                src="img/pod04.png"
+                src="img/Website.png"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -107,7 +107,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/space">
               <img
-                src="img/pod01.png"
+                src="img/space design.png"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
