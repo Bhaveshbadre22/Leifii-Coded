@@ -4,7 +4,7 @@ import SvgLine from "../../components/SvgLine/svgLine";
 const Fillar = () => {
   return (
     <div>
-      <div className="h-[120vh] md:h-[120vh] w-full bg-white overflow-hidden">
+      <div className="h-[110vh] md:h-[120vh] w-full bg-white overflow-hidden">
         <div className="h-[65%] w-full flex flex-col md:flex-row items-center">
           <div className="order-2 md:order-1 w-full lg:w-[90%] text-[4rem] md:text-[5rem] lg:text-[6rem] font-questrial mt-[2rem] lg:mt-[8rem] ml-[2rem] lg:ml-[5rem] items-center">
             <div>DESIGNING YOUR</div>
@@ -27,21 +27,14 @@ const Fillar = () => {
         <div className="">
           <SvgLine />
         </div>
-        <div className="h-[30%] flex flex-col md:flex-row font-[questrial] ml-[1.25rem] lg:ml-[8rem] px-4 lg:px-0 pt-[3rem] md:pt-0">
-          <div className="w-full lg:w-[30%] flex justify-start lg:justify-start mb-4 lg:mb-0">
-            <img src="/logol.png" className="h-8 w-8" alt="Logo" />
-          </div>
-          <div className="w-full lg:w-[10%] text-[1.25rem] lg:text-[1.25rem] pt-1 text-start  lg:text-left">
-            Creative Design
-          </div>
-          <div className="w-full lg:w-[50%] text-[1.25rem] lg:text-[1.75rem] tracking-wide px-1 pt-4 md:pt-0 lg:px-5 text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magni
-            incidunt illo? Modi officia nobis repudiandae neque eius dolorum
-            quisquam.
-          </div>
+        <div
+  className="w-full lg:w-full text-[1.25rem] lg:text-[2.03rem] tracking-wide px-0 pt-0 md:pt-0 lg:px-10 text-left uppercase"
+  style={{ paddingLeft: '5rem', lg: { paddingLeft: '20rem' } }}
+>
+  "Together, we will grow businesses and build brands that make a difference"
+</div>
         </div>
       </div>
-    </div>
   );
 };
 
