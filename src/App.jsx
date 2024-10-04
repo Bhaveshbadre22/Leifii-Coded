@@ -27,7 +27,7 @@ import Influencer from "./pages/Influencer/influencer.jsx";
 import Spaces from "./sections/Spaces/spaces.jsx";
 import ProjectLayout from "./pages/Projects/projectLayout.jsx";
 import projectData from "./pages/Projects/projectData.jsx";
-
+// import ServicesMain from './ServicesMain'; 
 // import Contact from "./pages/Contact/contact.jsx";
 
 function App() {

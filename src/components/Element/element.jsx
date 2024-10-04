@@ -19,9 +19,11 @@ const Element = () => {
             make sure they understand what sets you apart from the competition
           </p>
           <div>
+          {/* <Link to="./pages/Services/servicesMain.jsx"> */}
             <button className="bg-black text-white rounded-full py-6 px-10 md:py-3 md:px-6 lg:py-4 lg:px-8 mt-10 font-[Questrial] text-[1rem] md:text-base lg:text-lg">
               Explore Services 👀
             </button>
+            {/* </Link> */}
           </div>
         </div>
       </div>
