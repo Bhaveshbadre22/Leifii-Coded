@@ -55,7 +55,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/photography">
               <img
-                src="img/Photography.png"
+                src="img/Photo.webp"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -68,7 +68,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/branding">
               <img
-                src="img/Branding.png"
+                src="img/bran.webp"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -81,7 +81,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/marketing">
               <img
-                src="img/Marketing.png"
+                src="img/market.webp"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -94,7 +94,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/web">
               <img
-                src="img/Website.png"
+                src="img/web.webp"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"
@@ -107,7 +107,7 @@ const Banner = () => {
           <BannerComponent>
             <Link to="/services/space">
               <img
-                src="img/space design.png"
+                src="img/space.webp"
                 className="ban-pic"
                 data-scroll
                 data-scroll-direction="horizontal"

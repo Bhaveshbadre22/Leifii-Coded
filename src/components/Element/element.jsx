@@ -4,6 +4,7 @@ import design2 from "./design2.json";
 import strategy from "./strategy.json";
 import marketing from "./marketing.json";
 import love from "./love.json";
+import { Link } from "react-router-dom";
 
 const Element = () => {
   return (
@@ -20,9 +21,11 @@ const Element = () => {
           </p>
           <div>
           {/* <Link to="./pages/Services/servicesMain.jsx"> */}
+          <Link to="/services">
             <button className="bg-black text-white rounded-full py-6 px-10 md:py-3 md:px-6 lg:py-4 lg:px-8 mt-10 font-[Questrial] text-[1rem] md:text-base lg:text-lg">
               Explore Services 👀
             </button>
+            </Link>
             {/* </Link> */}
           </div>
         </div>

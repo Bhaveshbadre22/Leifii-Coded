@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Lottie from "lottie-react";
 import zeroTree from "./zeroTree.json"; // Make sure to provide the correct path
 import "./intro.scss"; // Ensure this contains your custom styles
+import { Link } from "react-router-dom";
+
 
 const Intro = () => {
   const constraintRef = useRef(null);
@@ -30,9 +32,11 @@ const Intro = () => {
             <span className="mas text-[2rem] md:text-[2rem] text-black p-4 md:p-7">
               Know More
             </span>
+            <Link to="/about">
             <button type="button" name="Hover">
               Know More
             </button>
+            </Link>
           </div>
         </motion.div>
       </div>

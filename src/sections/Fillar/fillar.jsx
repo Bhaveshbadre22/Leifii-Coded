@@ -27,12 +27,31 @@ const Fillar = () => {
         <div className="">
           <SvgLine />
         </div>
-        <div
+        {/* <div
   className="w-full lg:w-full text-[1.25rem] md:text-[1.75rem] lg:text-[2.03rem] tracking-wide px-0 pt-0 md:pt-0 lg:px-10 text-left uppercase"
   style={{ paddingLeft: '5rem', paddingRight: '0', lg: { paddingLeft: '20rem' } }}
 >
   "Together, we will grow businesses and build brands that make a difference"
+</div> */}
+<div
+  className="w-full text-[1.25rem] md:text-[1.75rem] lg:text-[2.03rem] tracking-wide uppercase text-left md:text-center"
+  style={{ 
+    paddingLeft: '2rem', // Padding for mobile
+    paddingRight: '0',
+  }}
+>
+  "Together, we will grow businesses and build brands that make a difference"
 </div>
+
+<style jsx>{`
+  @media (min-width: 1024px) {
+    div {
+      padding-left: 0; // No padding on larger screens
+      text-align: center; // Center-align on laptops
+    }
+  }
+`}</style>
+
         </div>
       </div>
   );
