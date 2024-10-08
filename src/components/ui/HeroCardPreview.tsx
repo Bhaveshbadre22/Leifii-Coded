@@ -7,15 +7,14 @@ import {
 
 export function HeroCardPreview() {
   return (
-    <div className="flex items-center justify-center bg-black h-[40rem] w-full">
-      <HeroCard text="You know the business" revealText="I know the chemistry ">
+    <div className="flex items-center justify-center bg-black h-screen w-full">
+      <HeroCard text="Anyone Can Do Our Job" revealText="But No One Can Be US! ">
         <TextRevealCardTitle>
-          Sometimes, you just need to see it.
+          At Leifii, our work reflects our commitment to growing businesses <br /> through creativity and strategy.
         </TextRevealCardTitle>
-        <TextRevealCardDescription>
-          This is a text reveal card. Hover over the card to reveal the hidden
-          text.
-        </TextRevealCardDescription>
+        {/* <TextRevealCardDescription>
+          Hover over the card to reveal the hidden text.
+        </TextRevealCardDescription> */}
       </HeroCard>
     </div>
   );
