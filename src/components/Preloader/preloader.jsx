@@ -5,14 +5,15 @@ import { motion } from "framer-motion";
 import { opacity, slideUp } from "./anim";
 
 const words = [
-  "Hello",
-  "नमस्ते",
-  "வணக்கம்",
-  "નમસ્તે",
-  "Bonjour",
-  "Ciao",
-  "نمسکار",
-  "やあ",
+  "Looking For",
+  "Growth",
+  "Creativity",
+  "Leads",
+  "Network",
+  "Influencers",
+  "Reach",
+  "Engagement",
+  "Design",
   "नमस्कार",
   "Leif it to us",
 ];

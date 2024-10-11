@@ -18,7 +18,7 @@ const Video = () => {
         className={`video_section ${
           isMobile
             ? "h-[450px] overflow-hidden"
-            : "h-[650px] sm:h-[500px] md:h-[650px]"
+            : "h-[650px] sm:h-[500px] md:h-[800px]"
         } w-[100%] md:w-[95%] object-cover border rounded-3xl`}
         src="/newVid.mp4"
         playsInline

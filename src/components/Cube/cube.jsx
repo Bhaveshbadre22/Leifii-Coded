@@ -20,7 +20,7 @@ const Cube = () => {
 
   // Continuous rotation: Multiply scroll progress by a larger factor for infinite feel
   const rotationX = useTransform(scrollYProgress, [0, 1], [0, Math.PI * 10]); // 5 full rotations (adjust multiplier as needed)
-  const rotationY = useTransform(scrollYProgress, [0, 1], [0, Math.PI * 10]);
+  const rotationY = useTransform(scrollYProgress, [0, 2], [0, Math.PI * 10]);
 
   // Smooth the rotations
   const smoothRotationX = useSpring(rotationX, { damping: 20 });
@@ -31,8 +31,8 @@ const Cube = () => {
       <div className="cube w-[600px]">
         <Canvas>
           <OrbitControls enableZoom={false} enablePan={false} />
-          <ambientLight intensity={1.5} />
-          <directionalLight position={[1.5, 1.5, 1.5]} />
+          <ambientLight intensity={3.0} />
+          <directionalLight intensity={1.8} position={[0.8, 0.8, 0.8,0.8]} />
           <MyCube rotationX={smoothRotationX} rotationY={smoothRotationY} />
         </Canvas>
       </div>

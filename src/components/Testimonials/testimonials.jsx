@@ -19,23 +19,23 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: "Increased Online Presence",
-      name: "I am very much satisfied with how the team is handling the work. They all are painstaking and very dedicated, understands the requirements and keeps themselves on toes.",
-      title: "Pooja - CEO of Pooja Khandelwal Designs",
+      name: "One of the best graphic designing and digital market company in pune. One stop solution for all your graphic designing work and all social media management. Very much dedicated team and great work.",
+      title: "Rahil Solanki, CEO Navkar Chemtech",
     },
     {
       quote: "A Creative and Innovative Partner",
-      name: "I really like their creativity and ideas. They have a unique way featuring festive posts. We really appreciate the team's quick response and dedication.",
-      title: "Amit Firodiya From Alsan India",
+      name: "Team Leifii have made a great contribution to the success of our business. I appreciate your commitment & enthusiasm in your work as a team. Thanks to you & your team for the continuous support & hardwork💫",
+      title: "Lakshita Sethiya, Founder Lehare",
     },
     {
-      quote: "Leifii Co is the Digital Marketing Partner ",
-      name: "You just give them a small brief and they are up with ideas that make your work look damn good. Within the span of just 15 days of interacting they already knew my preferences and could understand my points without even explaining.",
-      title: "Rohan Hasabnis CEO of Asian Box",
+      quote: "Leifii Co is the best Digital Marketing Partner ",
+      name: "Working with the Leifii team was an incredible experience! I wanted a logo that captured the essence of luxury, elegance, and grace, while incorporating the Saraswati symbol. They truly exceeded my expectations. Their work speaks for itself! Highly recommend Leifii for anyone looking for creativity and excellence.",
+      title: "Rythm Wagholikar, Author",
     },
     {
       quote: "Effortless Expansion of Digital Footprint ",
-      name: "Leifii Co has been instrumental in expanding our online presence seamlessly. Their team's meticulous attention to detail and unwavering dedication have made the process hassle-free.",
-      title: "Neha Sharma, Marketing Director at TechSavvy Solutions",
+      name: "Leifii delivered exceptional graphics for my pop-up café! I had a vision in mind, and their team brought it to life with creativity and precision. The designs truly captured the vibe of my café and have received fantastic feedback from customers. It was a seamless experience working with Leifii, and I highly recommend them for any branding and graphic needs!",
+      title: "Devendra Mitkar, Founder Daily Greens, Salads & Juice Bar",
     },
     {
       quote: "Innovative Solutions with Leifii Co",
@@ -135,10 +135,10 @@ const Testimonials = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="text-black flex justify-center text-[2.5rem] md:text-[4rem] pt-[2rem]">
-        Testimonials
+      <div className="text-black flex justify-center text-[2.2rem] md:text-[3rem] pt-[2rem]">
+        See What Our Clients Have To Say!
       </div>
-      <div className="text-[#3f3f3f] flex justify-center text-[1.2rem] pt-[1rem]">
+      <div className="text-[#3f3f3f] flex justify-center text-[1.7rem] pt-[1rem]">
         Click to reveal
       </div>
       {testimonies.map((testimony, index) => (
