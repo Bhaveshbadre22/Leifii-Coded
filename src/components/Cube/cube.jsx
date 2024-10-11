@@ -44,12 +44,12 @@ export default Cube;
 
 function MyCube({ rotationX, rotationY }) {
   const mesh = useRef(null);
-  const texture_1 = useLoader(TextureLoader, "/assets/Web 1.webp");
-  const texture_2 = useLoader(TextureLoader, "/assets/Web 2.webp");
-  const texture_3 = useLoader(TextureLoader, "/assets/Web 3.webp");
-  const texture_4 = useLoader(TextureLoader, "/assets/Web 4.webp");
-  const texture_5 = useLoader(TextureLoader, "/assets/Web 5.webp");
-  const texture_6 = useLoader(TextureLoader, "/assets/Web 6.webp"); 
+  const texture_1 = useLoader(TextureLoader, "/assets/Web 1.jpg");
+  const texture_2 = useLoader(TextureLoader, "/assets/Web 2.jpg");
+  const texture_3 = useLoader(TextureLoader, "/assets/Web 3.jpg");
+  const texture_4 = useLoader(TextureLoader, "/assets/Web 4.jpg");
+  const texture_5 = useLoader(TextureLoader, "/assets/Web 5.jpg");
+  const texture_6 = useLoader(TextureLoader, "/assets/Web 6.jpg"); 
 
   return (
     <motion.mesh
