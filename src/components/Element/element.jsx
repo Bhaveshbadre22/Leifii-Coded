@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import design2 from "./design2.json";
 import strategy from "./strategy.json";
 import marketing from "./marketing.json";
-import love from "./love.json";
+import cam from "./cam.json";
 import { Link } from "react-router-dom";
 
 const Element = () => {
@@ -76,7 +76,7 @@ const Element = () => {
           <div className="text-[hsla(0,0%,7%,.7)]">004</div>
           <div className="flex items-start py-5 pr-4 lg:pr-10">
             <Lottie
-              animationData={love}
+              animationData={cam}
               style={{ width: "100px", height: "100px" }}
             />
           </div>
