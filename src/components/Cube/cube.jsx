@@ -31,8 +31,8 @@ const Cube = () => {
       <div className="cube w-[600px]">
         <Canvas>
           <OrbitControls enableZoom={false} enablePan={false} />
-          <ambientLight intensity={3.0} />
-          <directionalLight intensity={1.8} position={[0.8, 0.8, 0.8,0.8]} />
+          <ambientLight intensity={1.0} />
+          <directionalLight intensity={1.0} position={[0.8, 0.8, 0.8]} />
           <MyCube rotationX={smoothRotationX} rotationY={smoothRotationY} />
         </Canvas>
       </div>
