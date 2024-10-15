@@ -93,7 +93,7 @@ const Landing = () => {
         </div>
         <BlogList />
 
-        <div className="h-[50vh]" >
+        <div className="h-[70vh]" >
          <Videoend />
         </div>
         <Footer />

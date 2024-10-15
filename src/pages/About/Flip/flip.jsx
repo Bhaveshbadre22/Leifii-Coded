@@ -7,7 +7,7 @@ const Flipp = () => {
       <div className="flip">
         <div className="front">
           <img
-            src="/images/cover1.jpg"
+            src="/images/FOUNDER PH.png"
             alt="Cover"
             className="w-full h-full object-cover"
           />
@@ -15,16 +15,15 @@ const Flipp = () => {
         <div className="back flex flex-col lg:flex-row text-black font-[questrial] p-4 lg:p-10">
           <div className="flex flex-row items-start lg:items-center mb-4 lg:mb-0">
             <div className="h-16 w-16 rounded-full overflow-hidden">
-              <img src="/images/cover1.jpg" alt="Profile" />
+              <img src="/images/FOUNDER PH.png" alt="Profile" />
             </div>
             <div className="p-5 pt-2 leading-6">
-              <div className="text-[1.2rem]">Kshitija Whaval</div>
+              <div className="text-[1.3rem]">Kshitija Whaval</div>
               <div className="text-[1.2rem] text-[#797676]">Founder</div>
             </div>
           </div>
-          <div className="lg:h-1/2 text-base lg:text-[1.8rem] pt-2 lg:pt-5">
-            Hello, My name is Kshitija Whaval and this is my filler content
-            about marketing and things about me.
+          <div className="lg:h-1/2 text-base lg:text-[1.6rem] pt-2 lg:pt-5">
+          With a talent for turning even the wildest brand ideas into scroll-stopping visuals, she’s the storyteller of Leifii team. Obsessed with design and character arcs (thanks, anime), Kshitija brings a unique flair to every project.
           </div>
           <div className="mt-4 lg:mt-0 lg:h-1/4 flex flex-col lg:flex-row text-[1rem] lg:text-[1.25rem] justify-between items-start md:items-center">
             <div className="text-[#032a39] mb-4 lg:mb-0">
@@ -45,7 +44,7 @@ const Flipp = () => {
       <div className="flip">
         <div className="front">
           <img
-            src="/images/cover1.jpg"
+            src="/images/CO-FOUNDER PH.png"
             alt="Cover"
             className="w-full h-full object-cover"
           />
@@ -53,16 +52,15 @@ const Flipp = () => {
         <div className="back flex flex-col lg:flex-row text-black font-[questrial] p-4 lg:p-10">
           <div className="flex flex-row items-start lg:items-center mb-4 lg:mb-0">
             <div className="h-16 w-16 rounded-full overflow-hidden">
-              <img src="/images/cover1.jpg" alt="Profile" />
+              <img src="/images/CO-FOUNDER PH.png" alt="Profile" />
             </div>
             <div className="p-5 pt-2 leading-6">
-              <div className="text-[1.2rem]">Richank Shah</div>
+              <div className="text-[1.3rem] style={{ fontWeight: 'semi-bold' }}">Richank Shah</div>
               <div className="text-[1.2rem] text-[#797676]">Co-Founder</div>
             </div>
           </div>
-          <div className="lg:h-1/2 text-base lg:text-[1.8rem] pt-2 lg:pt-5">
-            Hello, My name is Richank Shah and this is my filler content about
-            marketing and things about me.
+          <div className="lg:h-1/2 text-base lg:text-[1.6rem] pt-2 lg:pt-5">
+          With his amazing experience in marketing, he’s basically the megaphone your brand didn’t know it needed. From clever campaigns to strategies that make people really pay attention.
           </div>
           <div className="mt-4 lg:mt-0 lg:h-1/4 flex flex-col lg:flex-row text-[1rem] lg:text-[1.25rem] justify-between items-start md:items-center">
             <div className="text-[#032a39] mb-4 lg:mb-0">

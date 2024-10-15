@@ -17,10 +17,10 @@ const Videoend = () => {
       <motion.video
         className={`video_section ${
           isMobile
-            ? "h-[450px] overflow-hidden"
-            : "h-[650px] sm:h-[500px] md:h-[650px]"
+            ? "h-[250px] overflow-hidden"
+            : "h-[250px] sm:h-[250px] md:h-[220px]"
         } w-[100%] md:w-[95%] object-cover border rounded-3xl`}
-        src="/final video.mp4"
+        src="/lastvid.mp4"
         playsInline
         autoPlay
         loop

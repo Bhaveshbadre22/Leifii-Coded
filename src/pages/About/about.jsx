@@ -44,18 +44,26 @@ const About = () => {
         setDescription("");
       } else if (v < 0.2) {
         setDescription(
-          "At Leifii Co, we believe that your brand is the key to success. We focus on helping you design your leaves: the principal means through which you interact with your environment, achieve your goals, and expand your horizons. Our team specializes in creating and implementing effective digital marketing strategies that will help your brand stand out and thrive. We work with you every step of the way to ensure your brand is successful"
+          "The word Leifii symbolizes growth and nurturing in the business context. It draws an analogy to how a business owner plants the seeds of their venture, which can only grow into a successful, fruitful enterprise through the nurturing process akin to photosynthesis in leaves."
         );
       } else if (v < 0.3) {
         setDescription(
-          "Our purpose is to empower businesses to achieve their goals through effective digital marketing. We believe that every business has the potential to succeed and we are dedicated to helping them get there. Our team of experts provides tailored solutions for each business we work with, ensuring that they receive the support and guidance they need to achieve their desired outcomes."
+          <span>
+          "<strong>Leifii</strong> focuses on designing these <strong>leaves</strong> – the principal means through which businesses interact with their environment, achieve their goals, and expand their horizons. Leifii helps businesses grow by providing strategies, design, and marketing solutions that work."
+          </span>
         );
       } else if (v < 0.4) {
         setDescription(
-          "Leifii Co was founded with the mission to help businesses achieve their goals through effective digital marketing. Our team of experts brings a wealth of experience and knowledge to the table, and we are passionate about helping businesses succeed. We believe that every business has a unique story to tell, and we are committed to helping them share that story with the world."
+          <span>
+          "The organization embraces a corporate culture centered on the concept of <strong>Brandsynthesis</strong> This concept involves a willingness to use the broadest array of tools and techniques to understand, develop, and enhance the relationship between a consumer and a brand."
+          </span>
         );
       } else if (v < 0.5) {
-        setDescription("End of Animation");
+        setDescription(
+          <span>
+          <strong>"Leifit 2 us"</strong>
+          </span>
+          );
       } else setDescription(null);
     });
   }, [scrollYProgress]);
