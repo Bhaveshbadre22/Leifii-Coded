@@ -135,10 +135,10 @@ const Testimonials = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="text-black flex justify-center text-[2.2rem] md:text-[3rem] pt-[2rem]">
+      <div className="text-black flex justify-center text-[1.2rem] md:text-[2.6rem] pt-[2.2rem]">
         See What Our Clients Have To Say!
       </div>
-      <div className="text-[#3f3f3f] flex justify-center text-[1.7rem] pt-[1rem]">
+      <div className="text-[#3f3f3f] flex justify-center text-[1.2rem] md:text-[1.8rem] pt-[1.6rem]">
         Click to reveal
       </div>
       {testimonies.map((testimony, index) => (
