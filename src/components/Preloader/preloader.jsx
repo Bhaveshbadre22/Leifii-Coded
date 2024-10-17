@@ -14,7 +14,6 @@ const words = [
   "Reach",
   "Engagement",
   "Design",
-  "नमस्कार",
   "Leif it to us",
 ];
 
