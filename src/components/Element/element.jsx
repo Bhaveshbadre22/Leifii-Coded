@@ -5,7 +5,7 @@ import strategy from "./strategy.json";
 import marketing from "./marketing.json";
 import cam from "./cam.json";
 import { Link } from "react-router-dom";
-
+import "./element.scss";
 const Element = () => {
   return (
     <div className="h-auto bg-[#fff] flex flex-col px-1 sm:px-8 lg:px-16">
@@ -20,11 +20,11 @@ const Element = () => {
             make sure they understand what sets you apart from the competition
           </p>
           <div>
-          {/* <Link to="./pages/Services/servicesMain.jsx"> */}
-          <Link to="/services">
-            <button className="bg-black text-white rounded-full py-6 px-10 md:py-3 md:px-6 lg:py-4 lg:px-8 mt-10 font-[Questrial] text-[1rem] md:text-base lg:text-lg">
-              Explore Services 👀
-            </button>
+            {/* <Link to="./pages/Services/servicesMain.jsx"> */}
+            <Link to="/services">
+              <button className="bg-black text-white rounded-full py-6 px-10 md:py-3 md:px-6 lg:py-4 lg:px-8 mt-10 font-[Questrial] text-[1rem] md:text-base lg:text-lg">
+                Explore Services 👀
+              </button>
             </Link>
             {/* </Link> */}
           </div>
@@ -77,7 +77,11 @@ const Element = () => {
           <div className="flex items-start py-5 pr-4 lg:pr-10">
             <Lottie
               animationData={cam}
-              style={{ width: "100px", height: "100px" }}
+              style={{
+                width: "100px",
+                height: "100px",
+                transform: "scale(1.5)",
+              }}
             />
           </div>
           <div className="text-lg lg:text-xl">Content</div>
