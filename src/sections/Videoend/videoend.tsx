@@ -13,12 +13,12 @@ const Videoend = () => {
   );
 
   return (
-    <motion.div className=" w-full  transform-gpu overflow-hidden mt-[10rem] md:mt-0">
+    <motion.div className=" w-full  transform-gpu overflow-hidden mt-[0rem] md:mt-0">
       <motion.video
         className={`video_section ${
           isMobile
             ? "h-[250px] overflow-hidden"
-            : "h-[250px] sm:h-[250px] md:h-[220px]"
+            : "h-[250px] sm:h-[250px] md:h-auto"
         } w-[100%] md:w-[95%] object-cover border rounded-3xl`}
         src="/lastvid.mp4"
         playsInline
