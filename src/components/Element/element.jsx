@@ -5,7 +5,7 @@ import strategy from "./strategy.json";
 import marketing from "./marketing.json";
 import cam from "./cam.json";
 import { Link } from "react-router-dom";
-
+import "./element.scss";
 const Element = () => {
   return (
     <div className="h-auto bg-[#fff] flex flex-col px-1 sm:px-8 lg:px-16">
@@ -14,19 +14,29 @@ const Element = () => {
           Designing your
           <br /> leaves with
         </p>
-        <div className="flex flex-col w-full lg:w-1/2 mt-8 lg:mt-20">
+        <div className="flex flex-col w-full lg:w-1/2 mt-8 lg:mt-20 space-y-[2rem]">
           <p className="text-[1.2rem] md:text-lg lg:text-xl">
             We can help you grow those leaves to reach all the right people, and
             make sure they understand what sets you apart from the competition
           </p>
-          <div>
-          {/* <Link to="./pages/Services/servicesMain.jsx"> */}
-          <Link to="/services">
-            <button className="bg-black text-white rounded-full py-6 px-10 md:py-3 md:px-6 lg:py-4 lg:px-8 mt-10 font-[Questrial] text-[1rem] md:text-base lg:text-lg">
-              Explore Services 👀
-            </button>
+
+          {/* <div>
+            <Link to="/services">
+              <button className="bg-black text-white rounded-full py-6 px-10 md:py-3 md:px-6 lg:py-4 lg:px-8 mt-10 font-[Questrial] text-[1rem] md:text-base lg:text-lg">
+                Explore Services 👀
+              </button>
             </Link>
-            {/* </Link> */}
+          </div> */}
+
+          <div className="button-container-33">
+            <span className="mass md:text-[2rem] text-black py-6 px-10 md:py-3 md:px-6 lg:py-4 lg:px-8 mt-10 font-[Questrial]">
+              Explore Services 👀
+            </span>
+            <Link to="/services">
+              <button type="button" className="text-[1rem]" name="Hover">
+                Explore Services 👀
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -77,7 +87,11 @@ const Element = () => {
           <div className="flex items-start py-5 pr-4 lg:pr-10">
             <Lottie
               animationData={cam}
-              style={{ width: "100px", height: "100px" }}
+              style={{
+                width: "100px",
+                height: "100px",
+                transform: "scale(1.5)",
+              }}
             />
           </div>
           <div className="text-lg lg:text-xl">Content</div>

@@ -49,21 +49,29 @@ const About = () => {
       } else if (v < 0.3) {
         setDescription(
           <span>
-          "<strong>Leifii</strong> focuses on designing these <strong>leaves</strong> – the principal means through which businesses interact with their environment, achieve their goals, and expand their horizons. Leifii helps businesses grow by providing strategies, design, and marketing solutions that work."
+            "<strong>Leifii</strong> focuses on designing these{" "}
+            <strong>leaves</strong> – the principal means through which
+            businesses interact with their environment, achieve their goals, and
+            expand their horizons. Leifii helps businesses grow by providing
+            strategies, design, and marketing solutions that work."
           </span>
         );
       } else if (v < 0.4) {
         setDescription(
           <span>
-          "The organization embraces a corporate culture centered on the concept of <strong>Brandsynthesis</strong> This concept involves a willingness to use the broadest array of tools and techniques to understand, develop, and enhance the relationship between a consumer and a brand."
+            "The organization embraces a corporate culture centered on the
+            concept of <strong>Brandsynthesis</strong> This concept involves a
+            willingness to use the broadest array of tools and techniques to
+            understand, develop, and enhance the relationship between a
+            consumer and a brand."
           </span>
         );
       } else if (v < 0.5) {
         setDescription(
           <span>
-          <strong>"Leifit 2 us"</strong>
+            <strong>"Leifit 2 us"</strong>
           </span>
-          );
+        );
       } else setDescription(null);
     });
   }, [scrollYProgress]);

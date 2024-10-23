@@ -14,17 +14,16 @@
 }
 
 
-
 .button-container-1,
 .button-container-2,
-.button-container-3 {
+.button-container-33 {
   position: relative;
   width: 15rem;
   height: 7rem;
   overflow: hidden;
   border: 1px solid #000;
   font-family: 'Questrial', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   transition: 0.5s;
   letter-spacing: 1px;
   border-radius: 100px;
@@ -35,7 +34,7 @@
     height: 100%;
     font-family: 'Questrial', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     letter-spacing: 1px;
     font-weight: bold;
 
@@ -51,15 +50,15 @@
   }
 }
 
-.mas {
+.mass {
   position: absolute;
   color: #000;
   text-align: center;
   width: 101%;
   font-family: 'Questrial';
-  font-weight: 200;
-  font-size: 1.25rem;
-  margin-top: 20px;
+  font-weight: 100;
+  font-size: 1.1rem;
+  margin-top: 30px;
   overflow: hidden;
   font-weight: bold;
 }
@@ -113,8 +112,7 @@ a {
 }
 
 @media (max-width: 768px) {
- 
- 
+  
   .button-container-1,
   .button-container-2,
   .button-container-3 {
@@ -128,16 +126,7 @@ a {
 }
 
 @media (max-width: 480px) {
-  .header {
-    font-size: 18px;
-    margin-top: 6vh;
-  }
-
-  .footer {
-    font-size: 14px;
-    // margin-top: 10vh;
-  }
-
+  
   .button-container-1,
   .button-container-2,
   .button-container-3 {

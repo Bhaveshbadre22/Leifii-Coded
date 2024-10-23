@@ -22,8 +22,11 @@ const Flipp = () => {
               <div className="text-[1.2rem] text-[#797676]">Founder</div>
             </div>
           </div>
-          <div className="lg:h-1/2 text-base lg:text-[1.6rem] pt-2 lg:pt-5">
-          With a talent for turning even the wildest brand ideas into scroll-stopping visuals, she’s the storyteller of Leifii team. Obsessed with design and character arcs (thanks, anime), Kshitija brings a unique flair to every project.
+          <div className="lg:h-1/2 text-[1rem] lg:text-[1.6rem] pt-2 lg:pt-5">
+            With a talent for turning even the wildest brand ideas into
+            scroll-stopping visuals, she’s the storyteller of Leifii team.
+            Obsessed with design and character arcs (thanks, anime), Kshitija
+            brings a unique flair to every project.
           </div>
           <div className="mt-4 lg:mt-0 lg:h-1/4 flex flex-col lg:flex-row text-[1rem] lg:text-[1.25rem] justify-between items-start md:items-center">
             <div className="text-[#032a39] mb-4 lg:mb-0">
@@ -55,12 +58,16 @@ const Flipp = () => {
               <img src="/images/CO-FOUNDER PH.png" alt="Profile" />
             </div>
             <div className="p-5 pt-2 leading-6">
-              <div className="text-[1.3rem] style={{ fontWeight: 'semi-bold' }}">Richank Shah</div>
+              <div className="text-[1.3rem] style={{ fontWeight: 'semi-bold' }}">
+                Richank Shah
+              </div>
               <div className="text-[1.2rem] text-[#797676]">Co-Founder</div>
             </div>
           </div>
-          <div className="lg:h-1/2 text-base lg:text-[1.6rem] pt-2 lg:pt-5">
-          With his amazing experience in marketing, he’s basically the megaphone your brand didn’t know it needed. From clever campaigns to strategies that make people really pay attention.
+          <div className="lg:h-1/2 text-[1rem] lg:text-[1.6rem] pt-2 lg:pt-5">
+            With his amazing experience in marketing, he’s basically the
+            megaphone your brand didn’t know it needed. From clever campaigns to
+            strategies that make people really pay attention.
           </div>
           <div className="mt-4 lg:mt-0 lg:h-1/4 flex flex-col lg:flex-row text-[1rem] lg:text-[1.25rem] justify-between items-start md:items-center">
             <div className="text-[#032a39] mb-4 lg:mb-0">
