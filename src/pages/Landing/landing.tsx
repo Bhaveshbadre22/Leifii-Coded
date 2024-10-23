@@ -28,7 +28,7 @@ import Hero2 from "../../components/Hero/hero2.tsx";
 import Showcase from "../../components/Showcase/showcase.jsx";
 import SvgLine from "../../components/SvgLine/svgLine.jsx";
 import Fillar from "../../sections/Fillar/fillar.jsx";
-import Videoend from "../../sections/Videoend/videoend.tsx"
+import Videoend from "../../sections/Videoend/videoend.tsx";
 
 const Landing = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -93,9 +93,10 @@ const Landing = () => {
         </div>
         <BlogList />
 
-        <div className="h-[70vh]" >
-         <Videoend />
+        <div className="h-[50vh] flex justify-center items-center">
+          <Videoend />
         </div>
+
         <Footer />
       </div>
     </CursorProvider>
