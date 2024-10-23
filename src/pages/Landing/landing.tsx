@@ -93,7 +93,7 @@ const Landing = () => {
         </div>
         <BlogList />
 
-        <div className="h-[50vh] flex justify-center items-center">
+        <div className="h-[55vh] flex justify-center items-center">
           <Videoend />
         </div>
 
