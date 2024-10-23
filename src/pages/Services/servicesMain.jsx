@@ -106,7 +106,7 @@ const ServicesMain = () => {
                     </div>
                   </div>
                 </div>
-                <div className="hidden lg:block">
+                <div className="">
                   {" "}
                   <HeroCardPreview />
                 </div>
