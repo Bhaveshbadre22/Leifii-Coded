@@ -71,6 +71,54 @@ const projectData = [
     reviewConclusionText: "Review conclusion text of the project.",
   },
   // Add more projects here...
+
+  {
+    id: "project3",
+    title: "Project 3",
+    subtitle: "Subtitle of Project 3",
+    categories: ["Category1", "Category2"],
+    videoSrc: "video1.mp4",
+    descriptionTitle: "Client Description Title",
+    descriptionText: "This is the description of the client's project.",
+    solutionTitle: "Solution Description Title",
+    solutionText: "This is the solution description text.",
+    images: ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"],
+    deliverables: [
+      { title: "Deliverable 1", description: "Description of deliverable 1" },
+      { title: "Deliverable 2", description: "Description of deliverable 2" },
+      { title: "Deliverable 3", description: "Description of deliverable 3" },
+    ],
+    bannerImgSrc: "banner1.jpg",
+    summary: "Summary of the project.",
+    reviewTitle: "Review Title",
+    reviewText: "Review text of the project.",
+    reviewConclusionTitle: "Review Conclusion Title",
+    reviewConclusionText: "Review conclusion text of the project.",
+  },
+
+  {
+    id: "project2",
+    title: "Project 1",
+    subtitle: "Subtitle of Project 1",
+    categories: ["Category1", "Category2"],
+    videoSrc: "video1.mp4",
+    descriptionTitle: "Client Description Title",
+    descriptionText: "This is the description of the client's project.",
+    solutionTitle: "Solution Description Title",
+    solutionText: "This is the solution description text.",
+    images: ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"],
+    deliverables: [
+      { title: "Deliverable 1", description: "Description of deliverable 1" },
+      { title: "Deliverable 2", description: "Description of deliverable 2" },
+      { title: "Deliverable 3", description: "Description of deliverable 3" },
+    ],
+    bannerImgSrc: "banner1.jpg",
+    summary: "Summary of the project.",
+    reviewTitle: "Review Title",
+    reviewText: "Review text of the project.",
+    reviewConclusionTitle: "Review Conclusion Title",
+    reviewConclusionText: "Review conclusion text of the project.",
+  },
 ];
 
 export default projectData;

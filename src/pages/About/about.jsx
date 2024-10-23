@@ -123,7 +123,7 @@ const About = () => {
         {/* <Slider /> */}
 
         <div className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] font-[questrial] text-center mt-[5rem]">
-          Pillars at Leifii Media
+          Values we built on
           <div
             style={{
               width: "280px",
@@ -145,10 +145,10 @@ const About = () => {
               />
             </div>
             <div className="text-[1.25rem] md:text-[1.5rem]">
-              Design Sprints
+            Ingeniously Creative
             </div>
             <div className="text-[hsla(0,0%,7%,.7)]">
-              The clue is in the name: we realise your visual concept at pace.
+            Harnessing innovative thinking to develop unique and effective solutions for our clients.
             </div>
           </div>
           <div className="h-auto lg:h-[70%] w-full border border-[hsla(0,0%,7%,.2)] border-l-2 border-y-0 border-r-0 pl-4 md:pl-[1.6rem] flex flex-col mb-6 lg:mb-0">
@@ -160,10 +160,10 @@ const About = () => {
               />
             </div>
             <div className="text-[1.25rem] md:text-[1.5rem]">
-              UX and UI Design
+              Pervasively Competent
             </div>
             <div className="text-[hsla(0,0%,7%,.7)]">
-              We solve problems with strategic design.
+            Demonstrating expertise and skill in all we do, ensuring the highest quality and reliability.
             </div>
           </div>
           <div className="h-auto lg:h-[70%] w-full border border-[hsla(0,0%,7%,.2)] border-l-2 border-y-0 border-r-0 pl-4 md:pl-[1.6rem] flex flex-col mb-6 lg:mb-0">
@@ -175,10 +175,10 @@ const About = () => {
               />
             </div>
             <div className="text-[1.25rem] md:text-[1.5rem]">
-              Design Direction
+            Influentially Insightful
             </div>
             <div className="text-[hsla(0,0%,7%,.7)]">
-              We tactically expand your brand into the digital world.
+            Using our knowledge and expertise to shape perceptions and drive meaningful change.
             </div>
           </div>
           <div className="h-auto lg:h-[70%] w-full border border-[hsla(0,0%,7%,.2)] border-l-2 border-y-0 border-r-0 pl-4 md:pl-[1.6rem] flex flex-col mb-6 lg:mb-0">
@@ -190,11 +190,10 @@ const About = () => {
               />
             </div>
             <div className="text-[1.25rem] md:text-[1.5rem]">
-              Discovery Workshops
+            Resolutely Driven
             </div>
             <div className="text-[hsla(0,0%,7%,.7)]">
-              We facilitate workshops that fast track discovery of your brand’s
-              identity
+            Maintaining a steadfast commitment to achieving our goals and delivering exceptional results.
             </div>
           </div>
         </div>
