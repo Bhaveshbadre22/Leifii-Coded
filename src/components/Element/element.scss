@@ -13,20 +13,6 @@
   color: $col;
 }
 
-.header {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 34px;
-  margin-top: 12vh;
-}
-
-.footer {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  margin-top: 15vh;
-}
 
 .button-container-1,
 .button-container-2,
@@ -126,16 +112,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .header {
-    font-size: 24px;
-    margin-top: 8vh;
-  }
-
-  .footer {
-    font-size: 16px;
-    margin-top: 10vh;
-  }
-
+  
   .button-container-1,
   .button-container-2,
   .button-container-3 {
@@ -149,16 +126,7 @@ a {
 }
 
 @media (max-width: 480px) {
-  .header {
-    font-size: 18px;
-    margin-top: 6vh;
-  }
-
-  .footer {
-    font-size: 14px;
-    margin-top: 10vh;
-  }
-
+  
   .button-container-1,
   .button-container-2,
   .button-container-3 {
