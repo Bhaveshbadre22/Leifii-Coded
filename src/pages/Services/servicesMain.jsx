@@ -124,25 +124,23 @@ const ServicesMain = () => {
                   </div>
                   <div className="relative w-[90%] m-5 lg:w-[40%] bg-blue-600 rounded-3xl text-white text-xl sm:m-8 md:m-10 mt-0 pt-5 pl-6 sm:pl-8 md:pl-10">
                     <div className="mb-3 text-justify text-slate-200">
-                      Our Design
+                      Our Thinking
                     </div>
                     <div className="mb-3 text-[0.9rem] sm:text-[1rem] pr-10 sm:pr-16 md:pr-20 text-left">
-                      I hold that blending an artisan's method with creativity
-                      empowers us to craft greatness and surpass limits in every
-                      project.
+                    Each project is a testament to our ‘Brandsynthesis*©*’ process, where design, marketing, and branding come together to produce results that resonate with consumers and grow your brand.
                     </div>
                     <div className="flex items-center text-[0.9rem] sm:text-[1rem] text-justify mb-4">
                       <div className="flex-shrink-0 mr-4">
                         <img
-                          src="/images/cover2.jpeg"
+                          src="/images/Approach.png"
                           alt="Photo"
                           className="w-12 h-12 sm:w-14 sm:h-14 rounded-full"
                         />
                       </div>
                       <div>
-                        <div>Kshitija Whaval</div>
+                        <div>TEAM LEIFII</div>
                         <div className="text-slate-200">
-                          Founder & Head Of Design
+                          #Leifit2us
                         </div>
                       </div>
                     </div>
