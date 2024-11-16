@@ -75,11 +75,11 @@ const Landing = () => {
             Why us?
           </div>
 
-          {/* <div className="flex flex-col sm:flex-row w-full h-screen sm:h-[85vh] justify-center pl-4 sm:pl-10">
+          <div className="flex flex-col sm:flex-row w-full h-screen sm:h-[85vh] justify-center pl-4 sm:pl-10">
             <div className="w-full sm:w-[75%] md:w-[60%] lg:w-[50%]">
               <Cube />
             </div>
-          </div> */}
+          </div>
 
           <div className="flex justify-center pb-0 mb-0">
             <Lottie

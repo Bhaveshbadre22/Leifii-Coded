@@ -93,8 +93,8 @@ const Fillar = () => {
         {/* The quote section */}
         <div className="w-full flex justify-center items-center mt-8">
           <div className="text-center text-[1.25rem] md:text-[1.75rem] lg:text-[2rem] tracking-wide  uppercase grow-line pr-0 lg:pr-6">
-            "Together, we will grow businesses and build brands that make a
-            difference"
+            Together we will grow businesses and build brands that make a
+            difference
           </div>
         </div>
       </div>
