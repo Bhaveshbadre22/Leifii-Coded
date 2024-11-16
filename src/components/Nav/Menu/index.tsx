@@ -68,7 +68,7 @@ export const Menu = ({ isMenuOpened, handleMenuOpen }: Props) => {
         </div>
         <div className={"navbar-menu__contact"}>
           <p className={"navbar-menu__title"}>Get in touch</p>
-          <a href="/">leifidesignconsultancy@gmail.com</a>
+          <a href="/">team@leifii.com</a>
         </div>
       </div>
     </div>
