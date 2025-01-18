@@ -70,10 +70,10 @@ const Landing = () => {
         </div>
         <Element />
 
-        <div className="bg-black text-white pt-10">
+        {/* <div className="bg-black text-white pt-10">
           <div className="text-[2.5rem] md:text-[40px] lg:text-[4rem] p-4 sm:p-10 pb-0 flex justify-center font-[Questrial]">
             Why us?
-          </div>
+          </div> */}
 
           {/* <div className="flex flex-col sm:flex-row w-full h-screen sm:h-[85vh] justify-center pl-4 sm:pl-10">
             <div className="w-full sm:w-[75%] md:w-[60%] lg:w-[50%]">
