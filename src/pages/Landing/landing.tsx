@@ -70,7 +70,7 @@ const Landing = () => {
         </div>
         <Element />
 
-        <div className="bg-black text-white pt-10">
+        <div className="bg-black text-white pt-1.5">
           {/* <div className="text-[2.5rem] md:text-[40px] lg:text-[4rem] p-4 sm:p-10 pb-0 flex justify-center font-[Questrial]">
             Why us?
           </div> */}
