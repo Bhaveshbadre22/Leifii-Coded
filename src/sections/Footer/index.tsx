@@ -103,7 +103,7 @@ export const Footer = () => {
       <div className="ml-[1rem] md:ml-[2rem] lg:ml-[5rem] pt-[2rem] mt-0 md:mt-[2rem] bg-black w-[95%] md:w-[100%] lg:w-[90%] flex flex-col">
         <div className="h-auto md:h-[20%] flex flex-row justify-between pb-0 md:pb-[3rem] px-[1rem] md:px-[1rem] lg:px-[5rem] text-[0.75rem] md:text-[1rem]">
           <div className="flex justify-center items-center">
-            &copy; 2024 LEIFII MEDIA LLP
+            &copy; 2025 LEIFII MEDIA LLP
           </div>
           <div className="mt-0 pr-0 md:pr-14 lg:pr-0">
             <a
