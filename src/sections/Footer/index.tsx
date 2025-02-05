@@ -145,11 +145,11 @@ export const Footer = () => {
         </div>
 
         <div className="h-auto md:h-[20%] flex flex-col md:flex-row justify-between md:justify-evenly lg:justify-between  px-[1rem] md:px-[0rem] lg:px-[5rem] mt-[5rem] md:mt-[5rem]">
-          <div className="div-2 flex flex-row justify-center items-center gap-[1rem] text-[1rem] lg:text-[1.35rem] font-medium text-white/[0.60] text-center mt-6 md:mt-0 pt-0 order-1 md:order-2">
-          <a href="/about" className="hover:text-white mb-3 block">What we do</a>
-  <a href="/services" className="hover:text-white mb-3 block">About us</a>
+          <div className=" div-2 flex flex-row justify-center items-center gap-[1rem] text-[1rem] lg:text-[1.35rem] font-medium text-white/[0.60] text-center mt-6 md:mt-0 pt-0 order-1 md:order-2">
+          <a href="/about" className="hover:text-white mb-3 block">About</a>
+  <a href="/services" className="hover:text-white mb-3 block">Services</a>
   <a href="/careers" className="hover:text-white mb-3 block">Careers</a>
-  <a href="/contact" className="hover:text-white mb-3 block">Contact us</a>
+  <a href="/contact" className="hover:text-white mb-3 block">Contact</a>
           </div>
           <div className="div-1 flex flex-row gap-[0.75rem] md:gap-[1.5rem] lg:gap-[3rem] text-[0.5rem] md:text-[0.75rem] lg:text-[1rem] font-medium order-2 md:order-1 mt-[1.5rem] md:mt-0">
             <div className="h-[2rem] md:h-[3rem] lg:h-[4rem] p-[1rem] px-2 md:px-4 lg:px-8 w-full flex justify-center items-center text-white border-[1.5px] border-white rounded-full hover:text-black hover:bg-white hover:border-black">
