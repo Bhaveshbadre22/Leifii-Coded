@@ -14,7 +14,7 @@ export function AnimatedPinDemo() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Shop no. 5, Mangalmurti Apartment, Pune - Satara Rd,
+              Shop no. 1 & 2, Mangalmurti Apartment, Pune - Satara Rd,
               <br /> Chhatrapati Sambhaji Nagar, Dhankawadi, Pune, Maharashtra
               411043
             </span>
